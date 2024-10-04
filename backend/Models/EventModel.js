@@ -8,6 +8,7 @@ const UserSchema = new mongoose.Schema({
     Tickets: String,
     Price: String,
     Capacity: String,
+    Image: String
 
 
 })

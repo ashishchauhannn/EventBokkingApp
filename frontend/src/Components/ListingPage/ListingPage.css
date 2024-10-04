@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Create two columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* Create two rows */
+    gap: 10px;
+    /* Optional: Add space between parts */
+    height: 100vh;
+    /* Optional: Make the container fill the viewport height */
+}
+
+.part1 {
+
+    margin-left: 280px;
+}
+
+.part2 {
+
+    margin-right: auto
+}

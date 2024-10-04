@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
-
-const mongoURL = "mongodb://0.0.0.0:27017/Event";
-
+require('dotenv').config();
+// const mongoURL = "mongodb://0.0.0.0:27017/Event";
+const mongoURL = process.env.MDB_URL;
 mongoose.connect(mongoURL)
 const db = mongoose.connection;
 db.on('connected', () => {
